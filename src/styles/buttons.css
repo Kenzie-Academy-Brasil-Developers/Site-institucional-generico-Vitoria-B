@@ -1,0 +1,14 @@
+.dark-button{
+    border: 1px solid #EDF2FF;
+    background-color: transparent;
+    color: var(--grey-color5);
+    font-size: 14px;
+    padding: 19px 32px;
+    margin-right: 236px;
+}
+
+.blue-button{
+    background-color: var(--brand-color1);
+    padding: 19px 32px;
+    color: var(--grey-color5);
+}

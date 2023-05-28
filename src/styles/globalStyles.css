@@ -1,18 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 :root {
-    --background-color: ;
     --brand-color1: #4C6EF5;
     --brand-color2: #364FC7;
-    --grey-color0: ;
-    --grey-color1: ;
-    --grey-color2: ;
-    --grey-color3: ;
-    --grey-color4: ;
-    --grey-color5: ;
-    --font-family: ;
-    --font-size-title1: ;
-    --font-size-title2: ;
-    --font-size-title3: ;
-    --font-size-title4: ;
-    --font-size-title5: ;
-    --font-size-title6: ;
+    --grey-color0: #191C1F;
+    --grey-color1: #212529;
+    --grey-color2: #343A40;
+    --grey-color3: #ADB5BD;
+    --grey-color4: #CED4DA;
+    --grey-color5: #EDF2FF;
+    --font-family: 'Inter', sans-serif;
+    --font-size-title1: 52px;
+    --font-size-title2: 40px;
+    --font-size-title3: 32px;
+    --font-size-text1: 28px;
+    --font-size-text2: 20px;
+    --font-size-text3: 18px;
+    --font-weight-title1: 600px;
+    --font-weight-title2: 600px;
+    --font-weight-title3: 400px;
+    --font-weight-text1: 400px;
+    --font-weight-text2: 400px;
+    --font-weight-text3: 400px;
+    --line-height-title1: 72px;
+    --line-height-title2: 64px;
+    --line-height-title3: 44px;
+    --line-height-text1: 44px;
+    --line-height-text3: 30px;
+    --line-height-text2: 27px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+.header__container{
+    height: 100px;
+    width: 100%;
+    background-color: var(--grey-color0);
+    border-bottom: 2px solid var(--brand-color1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title{
+    color: var(--grey-color5);
+    font-size: var(--font-size-text2);
+    font-weight: var(--font-weight-text2);
+    padding-left: 236px;
 }
