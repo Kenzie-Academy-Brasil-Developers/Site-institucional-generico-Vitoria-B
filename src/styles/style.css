@@ -48,7 +48,8 @@
     font-size: var(--font-size-text2);
     font-weight: var(--font-weight-text2);
     line-height: var(--line-height-text2);
-    padding-right: 236px;
+    width: 611px;
+    margin-right: 236px;
 }
 
 .parag__about{
