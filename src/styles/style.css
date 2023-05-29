@@ -20,6 +20,7 @@
 
 .main__parag{
     width: 770px;
+    margin-top: 44px;
     text-align: center;
     color: var(--grey-color3);
     font-size: var(--font-size-text2);
@@ -29,6 +30,7 @@
 
 .main__about{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 284px;
     background-color: var(--grey-color0);
@@ -43,14 +45,17 @@
 }
 
 .parag__container{
-    height: 120px;
-    width: 611px;
-    margin-right: 236px;
     font-size: var(--font-size-text2);
     font-weight: var(--font-weight-text2);
     line-height: var(--line-height-text2);
+    padding-right: 236px;
+}
+
+.parag__about{
+    color: var(--grey-color3);
 }
 
 .section__questions{
     height: 1175px;
+    background-color: var(--grey-color1);
 }

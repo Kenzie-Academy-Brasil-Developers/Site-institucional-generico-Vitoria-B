@@ -11,4 +11,6 @@
     background-color: var(--brand-color1);
     padding: 19px 32px;
     color: var(--grey-color5);
+    font-size: 14px;
+    margin-top: 44px;
 }
