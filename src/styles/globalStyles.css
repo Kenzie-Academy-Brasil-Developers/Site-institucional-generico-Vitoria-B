@@ -35,6 +35,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
+    color: var(--grey-color5);
 }
 
 .header__container{
@@ -52,4 +53,15 @@ body{
     font-size: var(--font-size-text1);
     font-weight: var(--font-weight-text1);
     padding-left: 236px;
+}
+
+.footer{
+    height: 119px;
+    background-color: var(--grey-color0);
+    color: var(--grey-color5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-text1);
+    font-weight: var(--font-weight-text1);
 }
