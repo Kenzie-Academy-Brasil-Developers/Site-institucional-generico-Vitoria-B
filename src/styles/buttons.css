@@ -1,16 +1,23 @@
 .dark-button{
     border: 1px solid #EDF2FF;
-    background-color: transparent;
-    color: var(--grey-color5);
-    font-size: 14px;
     padding: 19px 32px;
-    margin-right: 236px;
+    background-color: transparent;
+    color: var(--grey-color6);
+    font-size: 14px;
 }
 
 .blue-button{
     background-color: var(--brand-color1);
     padding: 19px 32px;
-    color: var(--grey-color5);
+    color: var(--grey-color6);
     font-size: 14px;
-    margin-top: 44px;
 }
+
+.header__container .dark-button{
+    margin: 20px 236px 20px 0;
+}
+
+.main__intro .blue-button{
+    margin-bottom: 250px;
+}
+

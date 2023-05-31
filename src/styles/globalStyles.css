@@ -8,26 +8,27 @@
     --grey-color2: #343A40;
     --grey-color3: #ADB5BD;
     --grey-color4: #CED4DA;
-    --grey-color5: #EDF2FF;
+    --grey-color5: #F8F9FA;
+    --grey-color6: #EDF2FF;
     --font-family: 'Inter', sans-serif;
     --font-size-title1: 44px;
-    --font-size-title2: 38px;
+    --font-size-title2: 36px;
     --font-size-title3: 30px;
-    --font-size-text1: 22px;
+    --font-size-text1: 24px;
     --font-size-text2: 16px;
     --font-size-text3: 14px;
-    --font-weight-title1: 600px;
-    --font-weight-title2: 600px;
-    --font-weight-title3: 400px;
-    --font-weight-text1: 400px;
-    --font-weight-text2: 400px;
-    --font-weight-text3: 400px;
+    --font-weight-title1: 600;
+    --font-weight-title2: 600;
+    --font-weight-title3: 600;
+    --font-weight-text1: 600;
+    --font-weight-text2: 400;
+    --font-weight-text3: 400;
     --line-height-title1: 72px;
     --line-height-title2: 64px;
     --line-height-title3: 44px;
     --line-height-text1: 44px;
-    --line-height-text3: 30px;
-    --line-height-text2: 27px;
+    --line-height-text2: 30px;
+    --line-height-text3: 25px;
 }
 
 body{
@@ -35,11 +36,10 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
-    color: var(--grey-color5);
+    color: var(--grey-color6);
 }
 
 .header__container{
-    height: 100px;
     width: 100%;
     background-color: var(--grey-color0);
     border-bottom: 2px solid var(--brand-color1);
@@ -48,17 +48,15 @@ body{
     justify-content: space-between;
 }
 
-.header__title{
-    color: var(--grey-color5);
-    font-size: var(--font-size-text1);
-    font-weight: var(--font-weight-text1);
-    padding-left: 236px;
+.header__logo{
+    width: 200px;
+    margin: 20px 10px 20px 236px ;
 }
 
 .footer{
     height: 119px;
     background-color: var(--grey-color0);
-    color: var(--grey-color5);
+    color: var(--grey-color6);
     display: flex;
     justify-content: center;
     align-items: center;
