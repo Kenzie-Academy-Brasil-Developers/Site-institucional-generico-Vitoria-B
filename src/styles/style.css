@@ -8,7 +8,7 @@
 
 .main__title{
     font-size: var(--font-size-title1);
-    font-weight: var(--font-weight-title1);
+    font-weight: var(--font-weight-600);
     line-height: var(--line-height-title1);
     color: var(--grey-color6);
     text-align: center;
@@ -28,7 +28,7 @@
 .main__parag, .parag__about, .div__questions p{
     color: var(--grey-color3);
     font-size: var(--font-size-text2);
-    font-weight: var(--font-weight-text2);
+    font-weight: var(--font-weight-400);
     line-height: var(--line-height-text2);
 }
 
@@ -47,7 +47,7 @@
 
 .title__about, .box-blue h2{
     font-size: var(--font-size-title3);
-    font-weight: var(--font-weight-title3);
+    font-weight: var(--font-weight-600);
     line-height: var(--line-height-title3);
 }
 
@@ -70,7 +70,7 @@
 
 .title__questions{
     font-size: var(--font-size-title2);
-    font-weight: var(--font-weight-title2);
+    font-weight: var(--font-weight-600);
     line-height: var(--line-height-title2);
     margin-bottom: 33px;
 }
@@ -83,7 +83,7 @@
 
 .parag__questions, .student__class, .student__description, .box-blue p{
     font-size: var(--font-size-text3);
-    font-weight: var(--font-weight-text3);
+    font-weight: var(--font-weight-400);
     line-height: var(--line-height-text3);
 }
 
@@ -100,7 +100,7 @@
 
 .div__questions h3{
     font-size: var(--font-size-text1);
-    font-weight: var(--font-weight-text1);
+    font-weight: var(--font-weight-600);
     line-height: var(--line-height-text1);
     text-align: center;
     margin-bottom: 26px;
@@ -131,7 +131,7 @@
 
 .student__content h3{
     font-size: var(--font-size-text1);
-    font-weight: var(--font-size-text1);
+    font-weight: var(--font-size-600);
     line-height: var(--font-size-text1);
     color: var(--grey-color5);
     display: flex;
@@ -165,4 +165,29 @@
     width: 307px;
     margin: 0 83px 70px 48px;
     color: var(--grey-color6);
+}
+
+.modal__controller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__container{
+    background-color: var(--grey-color1);
+    border: 2px solid #4C6EF5;
+    margin: 160px 612px 2929px 612px;
+}
+
+.modal-button__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal__title{
+    color: var(--grey-color5);
+    font-size: var(--font-size-text2);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-text2);
 }

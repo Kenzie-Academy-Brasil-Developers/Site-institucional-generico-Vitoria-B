@@ -17,12 +17,8 @@
     --font-size-text1: 24px;
     --font-size-text2: 16px;
     --font-size-text3: 14px;
-    --font-weight-title1: 600;
-    --font-weight-title2: 600;
-    --font-weight-title3: 600;
-    --font-weight-text1: 600;
-    --font-weight-text2: 400;
-    --font-weight-text3: 400;
+    --font-weight-600: 600;
+    --font-weight-400: 400;
     --line-height-title1: 72px;
     --line-height-title2: 64px;
     --line-height-title3: 44px;
@@ -51,7 +47,7 @@ body{
 
 .header__logo{
     width: 200px;
-    margin: 20px 10px 20px 200px ;
+    margin: 40px 10px 40px 200px ;
 }
 
 .footer{

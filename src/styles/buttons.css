@@ -1,7 +1,9 @@
 .dark-button{
     border: 1px solid #F8F9FA;
     background-color: transparent;
-    margin: 20px 200px 20px 0;
+    position: fixed;
+    top: 20px;
+    right: 200px;
 }
 
 button, .dark-button, .blue-button{
@@ -31,4 +33,9 @@ button, .dark-button, .blue-button{
 
 .modal__controller button:hover{
     background-color: var(--brand-color2);
+}
+
+.modal__close{
+    font-size: 20px;
+    padding: 6px 12px;
 }
