@@ -168,21 +168,27 @@
 }
 
 .modal__controller{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--grey-color1);
+    border: 2px solid #4C6EF5;
+    width: 504px;
+    height: 397px;
+    padding: 0;
+    color: var(--grey-color4);
+}
+
+.modal__controller::backdrop{
+    background-color: rgba(25, 28, 31, 0.8);
 }
 
 .modal__container{
-    background-color: var(--grey-color1);
-    border: 2px solid #4C6EF5;
-    margin: 160px 612px 2929px 612px;
-}
-
-.modal-button__container{
+    width: 504px;
+    height: 397px;
+    padding: 40px 28px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
 }
 
 .modal__title{
