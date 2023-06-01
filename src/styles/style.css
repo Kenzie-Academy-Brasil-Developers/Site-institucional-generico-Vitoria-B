@@ -12,7 +12,7 @@
     line-height: var(--line-height-title1);
     color: var(--grey-color6);
     text-align: center;
-    margin: 250px 236px 44px 236px;
+    margin: 250px 200px 44px 200px;
 }
 
 .span-blue{
@@ -42,11 +42,11 @@
     font-size: var(--font-size-title3);
     font-weight: var(--font-weight-title3);
     line-height: var(--line-height-title3);
-    margin-left: 236px;
+    margin-left: 200px;
 }
 
 .about__container{
-    margin: 82px 236px 82px 0;
+    margin: 82px 200px 82px 0;
     width: 611px;
 }
 
@@ -62,11 +62,10 @@
     align-items: baseline;
     justify-content: space-between;
     background-color: var(--grey-color1);
-    border: 1px solid red;
 }
 
 .container__questionss--action{
-    margin: 100px 169px 804px 236px;
+    margin: 100px 169px 0 200px;
 
 }
 
@@ -90,7 +89,7 @@
     display: flex;
     flex-direction: column;
     width: 614px;
-    margin: 100px 169px 100px 0;
+    margin: 100px 200px 100px 0;
 }
 
 .container__questions{
@@ -114,9 +113,74 @@
 
 .section__students{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
     background-color: var(--grey-color1);
-    border: 1px solid red;
 }
 
+.students__container{
+    margin: 0 60px 0 200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.student__content{
+    display: flex;
+    align-items: baseline;
+}
+
+.student__content span{
+    margin-right: 25px;
+}
+
+.student__content h3{
+    font-size: var(--font-size-text1);
+    font-weight: var(--font-size-text1);
+    line-height: var(--font-size-text1);
+    color: var(--grey-color5);
+    display: flex;
+    flex-direction: row;
+}
+
+.student__class{
+    font-size: var(--font-weight-text3);
+    font-weight: var(--font-weight-text3);
+    line-height: var(--line-height-text3);
+    color: var(--grey-color3);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 186px;
+}
+
+.student__description{
+    margin-bottom: 100px;
+    font-size: var(--font-weight-text3);
+    font-weight: var(--font-weight-text3);
+    line-height: var(--line-height-text3);
+    color: var(--grey-color6);
+}
+
+.box-blue{
+    background-color: var(--brand-color1);
+    margin-right: 200px;
+}
+
+.box-blue h2{
+    margin: 70px 48px 35px 48px;
+    font-size: var(--font-size-title3);
+    font-weight: var(--font-weight-title3);
+    line-height: var(--line-height-title3);
+    color: var(--grey-color5);
+}
+
+.box-blue p{
+    width: 307px;
+    margin: 0 83px 70px 48px;
+    font-size: var(--font-weight-text3);
+    font-weight: var(--font-weight-text3);
+    line-height: var(--line-height-text3);
+    color: var(--grey-color6);
+
+}

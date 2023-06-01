@@ -26,7 +26,7 @@
     --line-height-title1: 72px;
     --line-height-title2: 64px;
     --line-height-title3: 44px;
-    --line-height-text1: 44px;
+    --line-height-text1: 42px;
     --line-height-text2: 30px;
     --line-height-text3: 25px;
 }
@@ -46,20 +46,22 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .header__logo{
     width: 200px;
-    margin: 20px 10px 20px 236px ;
+    margin: 20px 10px 20px 200px ;
 }
 
 .footer{
-    height: 119px;
     background-color: var(--grey-color0);
-    color: var(--grey-color6);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: var(--font-size-text1);
-    font-weight: var(--font-weight-text1);
+}
+
+.footer__logo{
+    width: 160px;
+    margin: 40px 0;
 }
