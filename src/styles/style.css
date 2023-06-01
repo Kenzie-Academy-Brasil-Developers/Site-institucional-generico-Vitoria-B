@@ -20,9 +20,12 @@
 }
 
 .main__parag{
-    width: 770px;
     text-align: center;
-    margin-bottom: 44px;
+    margin: 0 430px 44px 430px;
+    color: var(--grey-color3);
+}
+
+.main__parag, .parag__about, .div__questions p{
     color: var(--grey-color3);
     font-size: var(--font-size-text2);
     font-weight: var(--font-weight-text2);
@@ -39,22 +42,18 @@
 }
 
 .title__about{
+    margin-left: 200px;
+}
+
+.title__about, .box-blue h2{
     font-size: var(--font-size-title3);
     font-weight: var(--font-weight-title3);
     line-height: var(--line-height-title3);
-    margin-left: 200px;
 }
 
 .about__container{
     margin: 82px 200px 82px 0;
     width: 611px;
-}
-
-.parag__about{
-    font-size: var(--font-size-text2);
-    font-weight: var(--font-weight-text2);
-    line-height: var(--line-height-text2);
-    color: var(--grey-color3);
 }
 
 .section__questions{
@@ -77,12 +76,15 @@
 }
 
 .parag__questions{
-    font-size: var(--font-size-text3);
-    font-weight: var(--font-weight-text3);
-    line-height: var(--line-height-text3);
     color: var(--grey-color3);
     margin-bottom: 53px;
     width: 400px;
+}
+
+.parag__questions, .student__class, .student__description, .box-blue p{
+    font-size: var(--font-size-text3);
+    font-weight: var(--font-weight-text3);
+    line-height: var(--line-height-text3);
 }
 
 .div__questions{
@@ -102,13 +104,6 @@
     line-height: var(--line-height-text1);
     text-align: center;
     margin-bottom: 26px;
-}
-
-.div__questions p{
-    font-size: var(--font-size-text2);
-    font-weight: var(--font-weight-text2);
-    line-height: var(--line-height-text2);
-    color: var(--grey-color3);
 }
 
 .section__students{
@@ -144,9 +139,6 @@
 }
 
 .student__class{
-    font-size: var(--font-weight-text3);
-    font-weight: var(--font-weight-text3);
-    line-height: var(--line-height-text3);
     color: var(--grey-color3);
     display: flex;
     flex-direction: row;
@@ -156,9 +148,6 @@
 
 .student__description{
     margin-bottom: 100px;
-    font-size: var(--font-weight-text3);
-    font-weight: var(--font-weight-text3);
-    line-height: var(--line-height-text3);
     color: var(--grey-color6);
 }
 
@@ -169,18 +158,11 @@
 
 .box-blue h2{
     margin: 70px 48px 35px 48px;
-    font-size: var(--font-size-title3);
-    font-weight: var(--font-weight-title3);
-    line-height: var(--line-height-title3);
     color: var(--grey-color5);
 }
 
 .box-blue p{
     width: 307px;
     margin: 0 83px 70px 48px;
-    font-size: var(--font-weight-text3);
-    font-weight: var(--font-weight-text3);
-    line-height: var(--line-height-text3);
     color: var(--grey-color6);
-
 }

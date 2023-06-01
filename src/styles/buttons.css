@@ -1,23 +1,34 @@
 .dark-button{
-    border: 1px solid #EDF2FF;
-    padding: 19px 32px;
+    border: 1px solid #F8F9FA;
     background-color: transparent;
+    margin: 20px 200px 20px 0;
+}
+
+button, .dark-button, .blue-button{
+    padding: 19px 32px;
     color: var(--grey-color6);
     font-size: 14px;
 }
 
 .blue-button{
     background-color: var(--brand-color1);
-    padding: 19px 32px;
-    color: var(--grey-color6);
-    font-size: 14px;
-}
-
-.header__container .dark-button{
-    margin: 20px 200px 20px 0;
-}
-
-.main__intro .blue-button{
     margin-bottom: 250px;
 }
 
+.modal__controller button{
+    background-color: var(--brand-color1);
+    border: none;
+}
+
+.dark-button:hover{
+    border: 1px solid #f8f9fa00;
+    background-color: var(--brand-color2);
+}
+
+.blue-button:hover{
+    background-color: var(--brand-color2);
+}
+
+.modal__controller button:hover{
+    background-color: var(--brand-color2);
+}
