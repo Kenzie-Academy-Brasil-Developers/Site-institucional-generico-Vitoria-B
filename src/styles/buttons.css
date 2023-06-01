@@ -23,12 +23,13 @@ button, .dark-button, .blue-button{
 }
 
 .dark-button:hover{
-    border: 1px solid #f8f9fa00;
+    border: none;
     background-color: var(--brand-color2);
 }
 
 .blue-button:hover{
     background-color: var(--brand-color2);
+    border: none;
 }
 
 .modal__controller button:hover{
@@ -37,5 +38,6 @@ button, .dark-button, .blue-button{
 
 .modal__close{
     font-size: 20px;
-    padding: 6px 12px;
+    text-align: center;
+    width: 38px;
 }
