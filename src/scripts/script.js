@@ -21,3 +21,9 @@ function closeModal() {
 }
 
 handleModal()
+
+
+function actionButtonAbout() {
+    const button = document.querySelector('.blue__button--action')
+    
+}

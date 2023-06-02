@@ -1,20 +1,19 @@
 .dark-button{
     border: 1px solid var(--grey-color5);
     background-color: transparent;
-    position: fixed;
-    top: 20px;
-    right: 200px;
+    margin: 20px 200px 20px 20px;
 }
 
-button, .dark-button, .blue-button{
+.button{
     padding: 19px 32px;
     color: var(--grey-color6);
     font-size: 14px;
 }
 
-.blue-button{
+.blue__button{
     background-color: var(--brand-color1);
     margin-bottom: 250px;
+    text-decoration: none;
 }
 
 .enter__button{
@@ -34,7 +33,7 @@ button, .dark-button, .blue-button{
 }
 
 input{
-    background-color: var(--grey-color2);
+    background-color: var(--grey-color0);
     color: var(--grey-color3);
     font-size: var(--font-size-text2);
     line-height: var(--line-height-text2);
@@ -42,6 +41,11 @@ input{
     padding: 14px 20px;
     outline: 0;
     border: none;
+}
+
+input:hover{
+    color: var(--grey-color3);
+    background-color: var(--grey-color2);
 }
 
 input:focus{
@@ -54,7 +58,7 @@ input:focus{
     background-color: var(--brand-color2);
 }
 
-.blue-button:hover{
+.blue__button:hover{
     background-color: var(--brand-color2);
     border: none;
 }

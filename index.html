@@ -13,15 +13,15 @@
 <body>
     <header class="header__container">
         <img class="header__logo" src="src/img/logo.svg">
-        <button class="dark-button">Entrar para a próxima turma</button>
+        <button class="button dark-button">Entrar para a próxima turma</button>
     </header>
     <main class="main__container">
         <div class="main__intro">
             <h1 class="main__title">Desenvolvendo <span class="span-blue">suas</span> próximas habilidades</h1>
             <p class="main__parag">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
-            <span class="blue-button">Sobre nós</span>
+            <a class="button blue__button" href="#navigation__about">Sobre nós</a>
         </div>
-        <div class="main__about">
+        <div id="navigation__about" class="main__about">
             <h2 class="title__about">Quem somos nós?</h2>
             <span class="about__container">
                 <p class="parag__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aut, quos consequatur nemo error deserunt iste, fugit natus ipsum enim voluptatibus dolorem ea ab sint accusamus quas? Facilis, maiores in.</p>
@@ -31,7 +31,7 @@
             <div class="container__questionss--action">
                 <h2 class="title__questions">Dúvidas frequentes</h2>
                 <p class="parag__questions">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
-                <span class="blue-button">Entrar para próxima turma</span>
+                <span class="button blue__button">Entrar para próxima turma</span>
             </div>
             <div class="div__questions">
                 <span class="container__questions">
@@ -109,8 +109,8 @@
                 <button class="modal__close">X</button>
             </div>
             <p class="modal__parag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-            <input type="text" placeholder="Digitar email">
-            <button class="enter__button">Entrar na lista para a próxima turma</button>
+            <input type="email" placeholder="Digitar email">
+            <button class="button enter__button">Entrar na lista para a próxima turma</button>
         </div>
     </dialog>
     <script src="./src/scripts/script.js"></script>
