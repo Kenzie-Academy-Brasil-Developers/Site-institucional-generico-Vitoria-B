@@ -5,6 +5,18 @@ function handleModal() {
 
     button.addEventListener('click', function(){
         modalController.showModal()
+
+        closeModal()
+    })
+}
+
+function closeModal() {
+    const button = document.querySelector('.modal__close')
+    const modalController = document.querySelector('.modal__controller')
+
+
+    button.addEventListener('click', function(){
+        modalController.close()
     })
 }
 

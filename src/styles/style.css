@@ -169,7 +169,7 @@
 
 .modal__controller{
     background-color: var(--grey-color1);
-    border: 2px solid #4C6EF5;
+    border: 2px solid var(--brand-color1);
     width: 504px;
     height: 397px;
     padding: 0;
@@ -178,6 +178,12 @@
 
 .modal__controller::backdrop{
     background-color: rgba(25, 28, 31, 0.8);
+}
+
+.modal-button__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .modal__container{
@@ -193,7 +199,15 @@
 
 .modal__title{
     color: var(--grey-color5);
-    font-size: var(--font-size-text2);
+    font-size: var(--font-size-text1);
     font-weight: var(--font-weight-600);
-    line-height: var(--line-height-text2);
+    line-height: var(--line-height-text1);
+    align-self: flex-start;
+}
+
+.modal__parag{
+    font-size: var(--font-size-text3);
+    line-height: var(--line-height-text3);
+    font-weight: var(--font-weight-400);
+    color: var(--grey-color4);
 }
